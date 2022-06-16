@@ -3,7 +3,7 @@ import Logo from "../Logo"
 // import {Link} from 'react-router-dom'
 const Navbar = () => {
   return (
-    <nav className="navbar py-2 shadow-lg bg-white text-neutral-content nv">
+    <nav className="navbar relative py-2 shadow-lg bg-white text-neutral-content z-999999">
       <div className="container mx-auto">
         <div className="flex">
           <div className="mt-4">
